@@ -1,4 +1,4 @@
-# qihl-readme-ru
+# liquid.qihl-readme-ru
 
 ## How to make changes when mantainer is dead
 
