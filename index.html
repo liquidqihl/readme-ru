@@ -2,10 +2,7 @@
 <html lang="ru">
   <head>
     <title>Liquid.qihl ReadMe</title>
-    <link
-      rel="shortcut icon"
-      href="./favicon.ico"
-    />
+    <link rel="shortcut icon" href="./favicon.ico" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -29,23 +26,41 @@
     </style>
   </head>
   <body>
+    <!-- GIST SCRIPT START -->
     <script src="https://gist.github.com/risenforces/33e9609f8b5b67e253a6fea68e3e8fca.js"></script>
+    <!-- GIST SCRIPT END -->
     <script>
+      function scrollToAnchor(options) {
+        var normalizedHash = window.decodeURI(options.target);
+        var targetID = "user-content-" + normalizedHash.slice(1);
+        var target = document.getElementById(targetID);
+        var realTarget = target.parentNode;
+        var top = realTarget.getBoundingClientRect().top;
+
+        window.scrollTo({
+          top,
+          behavior: options.isSmooth ? "smooth" : "auto"
+        });
+      }
+
+      if (window.location.hash)
+        window.setTimeout(function() {
+          scrollToAnchor({
+            target: window.location.hash
+          });
+        }, 750);
+
       var filter = Array.prototype.filter;
       var links = document.querySelectorAll("a");
       var hyperlinks = filter.call(links, function(link) {
         return link.hash;
       });
+      
       hyperlinks.forEach(function(hyperlink) {
         hyperlink.addEventListener("click", function() {
-          var normalizedHash = window.decodeURI(hyperlink.hash);
-          var targetID = "user-content-" + normalizedHash.slice(1);
-          var target = document.getElementById(targetID);
-          var realTarget = target.parentNode;
-          var top = realTarget.getBoundingClientRect().top;
-          window.scrollTo({
-            top,
-            behavior: "smooth"
+          scrollToAnchor({
+            target: hyperlink.hash,
+            isSmooth: true
           });
         });
       });

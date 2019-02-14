@@ -1,6 +1,6 @@
-# liquid.qihl-readme-ru
+# qihl-readme-ru
 
-## How to make changes when mantainer is dead
+## How to make changes when maintainer is dead
 
 1. Fork [this gist](https://gist.github.com/risenforces/33e9609f8b5b67e253a6fea68e3e8fca). Or completely clone it (**not** `git clone`, you should create a **new repo**).
 2. Make changes.
