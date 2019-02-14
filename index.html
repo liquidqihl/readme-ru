@@ -10,60 +10,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css"
     />
-    <style>
-      .gist {
-        max-width: 900px;
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-      }
-      .gist-file {
-        border: none !important;
-      }
-      .gist-data {
-        padding: 45px;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/liquidqihl/readme-files/index.css"
+    />
   </head>
   <body>
     <!-- GIST SCRIPT START -->
     <script src="https://gist.github.com/risenforces/33e9609f8b5b67e253a6fea68e3e8fca.js"></script>
     <!-- GIST SCRIPT END -->
-    <script>
-      function scrollToAnchor(options) {
-        var normalizedHash = window.decodeURI(options.target);
-        var targetID = "user-content-" + normalizedHash.slice(1);
-        var target = document.getElementById(targetID);
-        var realTarget = target.parentNode;
-        var top = realTarget.getBoundingClientRect().top;
-
-        window.scrollTo({
-          top,
-          behavior: options.isSmooth ? "smooth" : "auto"
-        });
-      }
-
-      if (window.location.hash)
-        window.setTimeout(function() {
-          scrollToAnchor({
-            target: window.location.hash
-          });
-        }, 750);
-
-      var filter = Array.prototype.filter;
-      var links = document.querySelectorAll("a");
-      var hyperlinks = filter.call(links, function(link) {
-        return link.hash;
-      });
-      
-      hyperlinks.forEach(function(hyperlink) {
-        hyperlink.addEventListener("click", function() {
-          scrollToAnchor({
-            target: hyperlink.hash,
-            isSmooth: true
-          });
-        });
-      });
-    </script>
+    <script src="https://cdn.jsdelivr.net/gh/liquidqihl/readme-files/index.js"></script>
   </body>
 </html>
