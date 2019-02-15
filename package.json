@@ -6,6 +6,7 @@
     "build": "node ./scripts/build.js"
   },
   "dependencies": {
+    "cyrillic-to-translit-js": "git+https://github.com/risenforces/cyrillic-to-translit-js.git",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-underline": "^1.0.1",
