@@ -51,7 +51,7 @@
 <p>Что нужно сделать:</p>
 <ol>
 <li>Зайдите в <a href="https://discordapp.com/channels/@me" target="_blank">браузерную версию Discord</a>.</li>
-<li><strong>Убедитесь, что вы используете правильный Discord-аккаунт</strong>.</li>
+<li><u><strong>Убедитесь, что вы используете правильный Discord-аккаунт</strong></u>.</li>
 <li>Перейдите в настройки.<br>
 <img src="https://lh3.googleusercontent.com/gNZDNSHJOyAnmJy4Fn-ja-eDP-w38ls5TD_Ao2mIcDMRqvJiIwoAFFTg0GJK6w9DUIMd_8L-llg" alt="User Settings" title="User Settings"></li>
 <li>Перейдите в “Интеграции” (или “Connections” в английской версии).<br>
@@ -59,7 +59,7 @@
 <li>Нажмите на иконку Steam.<br>
 <img src="https://lh3.googleusercontent.com/v3-DfaEta2tCH8gGCypnNrqXFF7e_Wb6sbKyGEGIBs2yalK43cbQGqp6o6Fh6PL-2UxoKP5NMkM" alt="Steam connection" title="Steam connection"></li>
 <li>Система предложит вам зайти в Steam, если вы еще не сделали это.</li>
-<li><strong>Убедитесь, что вы используете правильный Steam-аккаунт</strong>.</li>
+<li><u><strong>Убедитесь, что вы используете правильный Steam-аккаунт</strong></u>.</li>
 <li>Нажмите кнопку “Sign In”.<br>
 <img src="https://lh3.googleusercontent.com/SR63MifJDkiNRYU0NRA_7lZjUMMtYm7hjFNsMzTXXC2I0wDGXLMgRFua78SH8HH45EXlo0NvrLQ" alt="Steam Sign In" title="Steam Sign In"></li>
 <li>Вы успешно привязали Steam-аккаунт к Discord.<br>
@@ -68,15 +68,13 @@
 <h3 id="подтверждение-верификация-steam-аккаунта">Подтверждение (верификация) Steam-аккаунта</h3>
 <ol>
 <li>Перейдите по <a href="http://autochessbot.vinthian.com" target="_blank">ссылке</a>.</li>
-<li><strong>Убедитесь, что вы используете правильный Discord-аккаунт</strong>.</li>
+<li><u><strong>Убедитесь, что вы используете правильный Discord-аккаунт</strong></u>.</li>
 <li>Нажмите на кнопку “Authorize”.<br>
 <img src="https://lh3.googleusercontent.com/S3u_83CYeR_FNnrbQopDhyWwRU7J-El8sRqPQj2ddz6SvfZ_ODs1MkoCCQPqazznOrYbTWNB1OA" alt="Authorization" title="Authorization"></li>
-<li>Нажмите на ссылку с вашим Steam64ID.<br>
+<li>Нажмите на ссылку с вашим Steam64ID.
 <img src="https://lh3.googleusercontent.com/iPPMn6Bgkyy-Ar6pyy9sO_NAinf2hDf0XyAPiFsbHJsezdoQ4ltYngEsWIAWck4p8GyzHsZfpao" alt="Linking" title="Linking"></li>
-<li>Вы привязали ваш Steam-аккаунт к боту.<br>
-<img src="https://lh3.googleusercontent.com/JeYvOGrKSxWatuSHPL_KvAvRKu4AojD0ELDAcNsOjG_C2NNdSdag87uboEhurrh45jhCGVcZVsE" alt="Success" title="Success"></li>
-<li>Напишите команду <code>!rank</code> в канал <code>#chessbot-commands</code>.<br>
-Бот выдаст вам роли, соответствующие вашему рангу.<br>
+<li>Если вы увидите сообщение <code>You have successfully linked to steamID: [ваш steam64id]</code>, то всё прошло успешно.<br>
+Напишите команду <code>!rank</code> в канал <code>#chessbot-commands</code>, чтобы получить роли, соответствующие вашему рангу.<br>
 Теперь вы можете <a href="#%D0%BA%D0%B0%D0%BA-%D0%BD%D0%B0%D0%B9%D1%82%D0%B8-%D0%B8-%D0%BF%D1%80%D0%B8%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%82%D1%8C%D1%81%D1%8F-%D0%BA-%D0%BB%D0%BE%D0%B1%D0%B1%D0%B8-%D0%B8%D0%BB%D0%B8-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%B5%D0%B3%D0%BE">играть в лобби</a>.</li>
 </ol>
 <h2 id="ранги">Ранги</h2>
@@ -182,7 +180,7 @@
 <h2 id="как-пожаловаться-на-игрока">Как пожаловаться на игрока</h2>
 <p>Приведенная ниже инструкция <strong>НЕ ПРИМЕНИМА К</strong> лобби, которые были созданы вручную, без использования бота (например, <code>#intermediate-lobbies-no-bot</code>).<br>
 Мы контролируем ранги <strong>только</strong> в лобби, которые были созданы <strong>через бота</strong>.</p>
-<p>Если в игре оказался игрок, ранг которого ниже, чем допустимый в данном лобби (например, вы начали игру в лобби с ограничением <code>Bishop-1</code>+, но в игре есть игрок с рангом <code>Knight-8</code>), то попросите его написать <code>-refresh</code> в чат игры (не в чат Дискорд), чтобы он незамедлительно перестал играть. <em>Постарайтесь при этом сами не написать <code>-refresh</code>, иначе вы мгновенно умрете в игре.</em> Если игрок отказывается сдаться, то обратитесь в канал <code>#player-reports</code> и предоставьте:</p>
+<p>Если в игре оказался игрок, ранг которого ниже, чем допустимый в данном лобби (например, вы начали игру в лобби с ограничением <code>Bishop-1</code>+, но в игре есть игрок с рангом <code>Knight-8</code>), то попросите его написать <code>-refresh</code> в чат игры (не в чат Дискорд), чтобы он незамедлительно перестал играть. <u>Постарайтесь при этом сами не написать <code>-refresh</code>, иначе вы мгновенно умрете в игре.</u> Если игрок отказывается сдаться, то обратитесь в канал <code>#player-reports</code> и предоставьте:</p>
 <ol>
 <li>Скриншот из игры (желательно с чатом).</li>
 <li>Ссылку на Steam-профиль нарушителя.</li>
