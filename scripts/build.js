@@ -1,6 +1,7 @@
 const fs = require("fs");
 const MarkdownIt = require("markdown-it");
 const MarkdownItAnchor = require("markdown-it-anchor");
+const MarkdownItUnderline = require("markdown-it-underline");
 const uslug = require("uslug");
 
 const md = new MarkdownIt({
@@ -9,7 +10,7 @@ const md = new MarkdownIt({
   typographer: true
 }).use(MarkdownItAnchor, {
   slugify: uslug
-});
+}).use(MarkdownItUnderline);
 
 const mdContents = fs.readFileSync("source.md", "utf8");
 const mdHTML = md.render(mdContents);
