@@ -44,7 +44,7 @@
 Что нужно сделать:
 
 1. Зайдите в <a href="https://discordapp.com/channels/@me" target="_blank">браузерную версию Discord</a>.
-2. **Убедитесь, что вы используете правильный Discord-аккаунт**.
+2. __**Убедитесь, что вы используете правильный Discord-аккаунт**__.
 3. Перейдите в настройки.  
    ![User Settings](https://lh3.googleusercontent.com/gNZDNSHJOyAnmJy4Fn-ja-eDP-w38ls5TD_Ao2mIcDMRqvJiIwoAFFTg0GJK6w9DUIMd_8L-llg "User Settings")
 4. Перейдите в "Интеграции" (или "Connections" в английской версии).  
@@ -52,7 +52,7 @@
 5. Нажмите на иконку Steam.  
    ![Steam connection](https://lh3.googleusercontent.com/v3-DfaEta2tCH8gGCypnNrqXFF7e_Wb6sbKyGEGIBs2yalK43cbQGqp6o6Fh6PL-2UxoKP5NMkM "Steam connection")
 6. Система предложит вам зайти в Steam, если вы еще не сделали это.
-7. **Убедитесь, что вы используете правильный Steam-аккаунт**.
+7. __**Убедитесь, что вы используете правильный Steam-аккаунт**__.
 8. Нажмите кнопку "Sign In".  
    ![Steam Sign In](https://lh3.googleusercontent.com/SR63MifJDkiNRYU0NRA_7lZjUMMtYm7hjFNsMzTXXC2I0wDGXLMgRFua78SH8HH45EXlo0NvrLQ "Steam Sign In")
 9. Вы успешно привязали Steam-аккаунт к Discord.  
@@ -61,15 +61,13 @@
 ### Подтверждение (верификация) Steam-аккаунта
 
 1. Перейдите по <a href="http://autochessbot.vinthian.com" target="_blank">ссылке</a>.
-2. **Убедитесь, что вы используете правильный Discord-аккаунт**.
+2. __**Убедитесь, что вы используете правильный Discord-аккаунт**__.
 3. Нажмите на кнопку "Authorize".  
    ![Authorization](https://lh3.googleusercontent.com/S3u_83CYeR_FNnrbQopDhyWwRU7J-El8sRqPQj2ddz6SvfZ_ODs1MkoCCQPqazznOrYbTWNB1OA "Authorization")
-4. Нажмите на ссылку с вашим Steam64ID.  
+4. Нажмите на ссылку с вашим Steam64ID.
    ![Linking](https://lh3.googleusercontent.com/iPPMn6Bgkyy-Ar6pyy9sO_NAinf2hDf0XyAPiFsbHJsezdoQ4ltYngEsWIAWck4p8GyzHsZfpao "Linking")
-5. Вы привязали ваш Steam-аккаунт к боту.  
-   ![Success](https://lh3.googleusercontent.com/JeYvOGrKSxWatuSHPL_KvAvRKu4AojD0ELDAcNsOjG_C2NNdSdag87uboEhurrh45jhCGVcZVsE "Success")
-6. Напишите команду `!rank` в канал `#chessbot-commands`.  
-   Бот выдаст вам роли, соответствующие вашему рангу.  
+5. Если вы увидите сообщение `You have successfully linked to steamID: [ваш steam64id]`, то всё прошло успешно.  
+   Напишите команду `!rank` в канал `#chessbot-commands`, чтобы получить роли, соответствующие вашему рангу.  
    Теперь вы можете [играть в лобби](#как-найти-и-присоединиться-к-лобби-или-создать-его).
 
 ## Ранги
