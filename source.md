@@ -59,7 +59,8 @@
    ![Steam Account](https://i.ibb.co/vdcS5T7/1.jpg)
 8. Нажмите кнопку "Sign In".  
    ![Steam Sign In](https://i.ibb.co/pRxzRbW/2.jpg)
-9. Вы успешно привязали Steam-аккаунт к Discord. Перейдите к [верификации аккаунта](#подтверждение-верификация-steam-аккаунта).
+9. Вы успешно привязали Steam-аккаунт к Discord.  
+   **Перейдите к [верификации аккаунта](#подтверждение-верификация-steam-аккаунта)**.  
    ![Success](https://lh3.googleusercontent.com/msiV6wHPJBbXPRwt-9_Wcau_7rzEkF_DexUNk-fQv5klgQXHFDbYfVuv-jNV3ym0lCLvUuknkj8)
 
 ### Подтверждение (верификация) Steam-аккаунта
