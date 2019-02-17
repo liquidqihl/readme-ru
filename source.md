@@ -70,7 +70,7 @@
 3. Нажмите на ссылку.  
    ![Linking](https://lh3.googleusercontent.com/iPPMn6Bgkyy-Ar6pyy9sO_NAinf2hDf0XyAPiFsbHJsezdoQ4ltYngEsWIAWck4p8GyzHsZfpao)
 4. Если вы увидите сообщение `You have successfully linked to steamID: [ваш steam64id]`, то всё прошло успешно.  
-   Напишите команду `!rank` в канал `#chessbot-commands`, чтобы получить роли, соответствующие вашему рангу.  
+   Напишите команду `!updateroles` в канал `#chessbot-commands`, чтобы получить роли, соответствующие вашему рангу.  
    Теперь вы можете [играть в лобби](#как-найти-и-присоединиться-к-лобби-или-создать-его).
 
 ## Ранги
