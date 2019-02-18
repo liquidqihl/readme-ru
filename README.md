@@ -15,13 +15,10 @@
 1. Go to `source.md` file.
 2. Make changes.
 3. Open terminal. Make sure your terminal current path is `readme` directory.
-4. Run:
-   `npm run build`
+4. Run:  
+   `npm run build`  
    If everything goes well, you will see the message "Success!" in your terminal.
 5. Open `index.html` in browser to check changes.
-6. Stage your changes:
-   `git add *`
-7. Commit your changes:
-   `git commit -m "update readme"`
-8. Push changes to the repo:
-   `git push`
+6. Stage your changes: `git add *`
+7. Commit your changes: `git commit -m "update readme"`
+8. Push changes to the repo: `git push`
