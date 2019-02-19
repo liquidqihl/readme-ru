@@ -39,34 +39,31 @@
 
 Что нужно сделать:
 
-1. Зайдите в <a href="https://discordapp.com/channels/@me" target="_blank">браузерную версию Discord</a>.
-2. _**Убедитесь, что вы используете правильный Discord-аккаунт**_  
-   (здесь должны быть данные аккаунта Discord, с которого вы хотите играть на нашем сервере):  
-   ![User Name](https://i.ibb.co/6JxqQmJ/Screenshot-13.jpg)
-3. Перейдите в настройки.  
+1. Перейдите в настройки.  
    ![User Settings](https://lh3.googleusercontent.com/gNZDNSHJOyAnmJy4Fn-ja-eDP-w38ls5TD_Ao2mIcDMRqvJiIwoAFFTg0GJK6w9DUIMd_8L-llg)
-4. Перейдите в "Интеграции" (или "Connections" в английской версии).  
+2. Перейдите в "Интеграции" (или "Connections" в английской версии).  
    ![Connections](https://lh3.googleusercontent.com/hpRL5tSLJ0dsEERzj0hZzLVvfxjpffgZdvCxIBQoFN9UFmSjSn3RIPYyHAjzj0O8NRzHglmR3RM)
-5. Нажмите на иконку Steam.  
+3. Нажмите на иконку Steam.  
    ![Steam connection](https://lh3.googleusercontent.com/v3-DfaEta2tCH8gGCypnNrqXFF7e_Wb6sbKyGEGIBs2yalK43cbQGqp6o6Fh6PL-2UxoKP5NMkM)
-6. Система предложит вам зайти в Steam, если вы еще не сделали это.
-7. _**Убедитесь, что вы используете правильный Steam-аккаунт**_  
+4. Система предложит вам зайти в Steam, если вы еще не сделали это.
+5. _**Убедитесь, что вы используете правильный Steam-аккаунт**_  
    (здесь должны быть данные аккаунта Steam, с которого вы хотите играть на нашем сервере):  
    ![Steam Account](https://i.ibb.co/vdcS5T7/1.jpg)
-8. Нажмите кнопку "Sign In".  
+6. Нажмите кнопку "Sign In".  
    ![Steam Sign In](https://i.ibb.co/pRxzRbW/2.jpg)
-9. Вы успешно привязали Steam-аккаунт к Discord.  
+7. Вы успешно привязали Steam-аккаунт к Discord.  
    **Перейдите к [верификации аккаунта](#подтверждение-верификация-steam-аккаунта)**.  
    ![Success](https://lh3.googleusercontent.com/msiV6wHPJBbXPRwt-9_Wcau_7rzEkF_DexUNk-fQv5klgQXHFDbYfVuv-jNV3ym0lCLvUuknkj8)
 
 ### Подтверждение (верификация) Steam-аккаунта
 
-1. Перейдите по <a href="http://autochessbot.vinthian.com" target="_blank">ссылке</a>.
-2. Нажмите на кнопку "Authorize".  
+1. Перейдите по <a href="http://autochessbot.vinthian.com" target="_blank">этой ссылке</a>.
+2. Войдите в ваш Discord-аккаунт (**Обязательно в тот же, который вы используете в приложении**).
+3. Нажмите на кнопку "Authorize".  
    ![Authorization](https://lh3.googleusercontent.com/S3u_83CYeR_FNnrbQopDhyWwRU7J-El8sRqPQj2ddz6SvfZ_ODs1MkoCCQPqazznOrYbTWNB1OA)
-3. Нажмите на ссылку.  
+4. Нажмите на ссылку.  
    ![Linking](https://lh3.googleusercontent.com/iPPMn6Bgkyy-Ar6pyy9sO_NAinf2hDf0XyAPiFsbHJsezdoQ4ltYngEsWIAWck4p8GyzHsZfpao)
-4. Если вы увидите сообщение `You have successfully linked to steamID: [ваш steam64id]`, то всё прошло успешно.  
+5. Если вы увидите сообщение `You have successfully linked to steamID: [ваш steam64id]`, то всё прошло успешно.  
    Напишите команду `!updateroles` в канал `#chessbot-commands`, чтобы получить роли, соответствующие вашему рангу.  
    Теперь вы можете [играть в лобби](#как-найти-и-присоединиться-к-лобби-или-создать-его).
 
