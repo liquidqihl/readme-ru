@@ -39,7 +39,7 @@
 
 Что нужно сделать:
 
-1. Перейдите в настройки.  
+1. Перейдите в настройки вашего Discord.  
    ![User Settings](https://lh3.googleusercontent.com/gNZDNSHJOyAnmJy4Fn-ja-eDP-w38ls5TD_Ao2mIcDMRqvJiIwoAFFTg0GJK6w9DUIMd_8L-llg)
 2. Перейдите в "Интеграции" (или "Connections" в английской версии).  
    ![Connections](https://lh3.googleusercontent.com/hpRL5tSLJ0dsEERzj0hZzLVvfxjpffgZdvCxIBQoFN9UFmSjSn3RIPYyHAjzj0O8NRzHglmR3RM)
@@ -61,10 +61,12 @@
 2. Войдите в ваш Discord-аккаунт (**Обязательно в тот же, который вы используете в приложении**).
 3. Нажмите на кнопку "Authorize".  
    ![Authorization](https://lh3.googleusercontent.com/S3u_83CYeR_FNnrbQopDhyWwRU7J-El8sRqPQj2ddz6SvfZ_ODs1MkoCCQPqazznOrYbTWNB1OA)
-4. Нажмите на ссылку.  
-   ![Linking](https://lh3.googleusercontent.com/iPPMn6Bgkyy-Ar6pyy9sO_NAinf2hDf0XyAPiFsbHJsezdoQ4ltYngEsWIAWck4p8GyzHsZfpao)
+4. **Убедитесь, что используете верный аккаунт Discord**.  
+   ![Confirmation](https://i.ibb.co/T820NJF/Screenshot-19.jpg)
+5. Выберите из списка ваш Steam-аккаунт и нажмите на него.  
+   ![Linking](https://i.ibb.co/HGvrxVq/Screenshot-1.jpg)
 5. Если вы увидите сообщение `You have successfully linked to steamID: [ваш steam64id]`, то всё прошло успешно.  
-   Напишите команду `!updateroles` в канал `#chessbot-commands`, чтобы получить роли, соответствующие вашему рангу.  
+   **Напишите команду `!updateroles` в канал `#chessbot-commands`, чтобы получить роли, соответствующие вашему рангу**.  
    Теперь вы можете [играть в лобби](#как-найти-и-присоединиться-к-лобби-или-создать-его).
 
 ## Ранги
@@ -76,6 +78,7 @@
 - Advanced: `Слон-6` и выше
 - Expert: `Ладья-1` и выше
 - Master: `Ладья-5` и выше
+- Royalty: `Король` и выше
 
 ### Как узнать текущий ранг
 
