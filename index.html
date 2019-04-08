@@ -21,7 +21,7 @@
 2.1 <a href="#privyazka-steam-akkaunta-k-discord">Привязка Steam-аккаунта к Discord</a><br>
 2.2 <a href="#podtverzhdenie-verifikaciya-steam-akkaunta">Подтверждение (верификация) Steam-аккаунта</a></li>
 <li><a href="#rangi">Ранги</a><br>
-3.1 <a href="#kak-uznat-tekushii-rang">Как узнать текущий ранг</a><br>
+3.1 <a href="#Kak-uznat-tekushii-rang-i-obnovit-svoi-rang">Как узнать текущий ранг и обновить свой ранг</a><br>
 3.2 <a href="#kak-uznat-steam64id">Как узнать Steam64ID</a></li>
 <li><a href="#kak-naiti-i-prisoedinitsya-k-lobbi-ili-sozdat-ego">Как найти и присоединиться к лобби, или создать его</a><br>
 4.1 <a href="#poryadok-deistvii">Порядок действий</a><br>
@@ -65,17 +65,33 @@
 </ol>
 <h3 id="podtverzhdenie-verifikaciya-steam-akkaunta">Подтверждение (верификация) Steam-аккаунта</h3>
 <ol>
-<li>Перейдите по <a href="http://autochessbot.vinthian.com" target="_blank">этой ссылке</a>.</li>
-<li>Войдите в ваш Discord-аккаунт (<strong>Обязательно в тот же, который вы используете в приложении</strong>).</li>
-<li>Нажмите на кнопку “Authorize”.<br>
-<img src="https://lh3.googleusercontent.com/S3u_83CYeR_FNnrbQopDhyWwRU7J-El8sRqPQj2ddz6SvfZ_ODs1MkoCCQPqazznOrYbTWNB1OA" alt="Authorization"></li>
-<li><strong>Убедитесь, что используете верный аккаунт Discord</strong>.<br>
-<img src="https://i.ibb.co/T820NJF/Screenshot-19.jpg" alt="Confirmation"></li>
-<li>Выберите из списка ваш Steam-аккаунт и нажмите на него.<br>
-<img src="https://i.ibb.co/HGvrxVq/Screenshot-1.jpg" alt="Linking"></li>
-<li>Если вы увидите сообщение <code>You have successfully linked to steamID: [ваш steam64id]</code>, то всё прошло успешно.<br>
-<strong>Напишите команду <code>!updateroles</code> в канал <code>#chessbot-commands</code>, чтобы получить роли, соответствующие вашему рангу</strong>.<br>
-Теперь вы можете <a href="#kak-naiti-i-prisoedinitsya-k-lobbi-ili-sozdat-ego">играть в лобби</a>.</li>
+<li>
+<p>Перейдите по <a href="http://autochessbot.vinthian.com" target="_blank">этой ссылке</a>.</p>
+</li>
+<li>
+<p>Войдите в ваш Discord-аккаунт (<strong>Обязательно в тот же, который вы используете в приложении</strong>).</p>
+</li>
+<li>
+<p>Нажмите на кнопку “Authorize”.<br>
+<img src="https://lh3.googleusercontent.com/S3u_83CYeR_FNnrbQopDhyWwRU7J-El8sRqPQj2ddz6SvfZ_ODs1MkoCCQPqazznOrYbTWNB1OA" alt="Authorization"></p>
+</li>
+<li>
+<p><strong>Убедитесь, что используете верный аккаунт Discord</strong>.<br>
+<img src="https://i.ibb.co/T820NJF/Screenshot-19.jpg" alt="Confirmation"></p>
+</li>
+<li>
+<p>Выберите из списка ваш Steam-аккаунт и нажмите на него.<br>
+<img src="https://i.ibb.co/HGvrxVq/Screenshot-1.jpg" alt="Linking"></p>
+</li>
+<li>
+<p>Если вы увидите сообщение You have successfully linked to steamID: [ваш steam64id], то всё прошло успешно.</p>
+<ul>
+<li>Чтобы обновить ваш игровой ранг, отправьте команду !r в личные сообщения боту ChessBot.</li>
+<li>ChessBot отправит вам ваш ранг и уровневую роль в личные сообщения. Убедитесь, что вы не отключили личные сообщения в настройках приватности дискорда.</li>
+<li>Вы можете найти бота ChessBot в правом верхнем углу окна дискорда и кликнуть на него правой клавишей мыши чтобы отправить личное сообщение.</li>
+</ul>
+<p>Теперь вы можете <a href="#kak-naiti-i-prisoedinitsya-k-lobbi-ili-sozdat-ego">играть в лобби</a>.</p>
+</li>
 </ol>
 <h2 id="rangi">Ранги</h2>
 <p>Лобби на сервере организованы следующим образом:</p>
@@ -87,18 +103,11 @@
 <li>Master: <code>Ладья-5</code> и выше</li>
 <li>Royalty: <code>Король</code> и выше</li>
 </ul>
-<h3 id="kak-uznat-tekushii-rang">Как узнать текущий ранг</h3>
-<p>Аргументы нужно писать <strong>БЕЗ</strong> <code>[]</code> - здесь они используются для наглядности.</p>
-<p>Используйте эти команды в <code>#chessbot-commands</code>, <strong>НЕ</strong> в <code>#help-desk</code>:</p>
+<h3 id="как-узнать-текущий-ранг-и-обновить-свой-ранг">Как узнать текущий ранг и обновить свой ранг</h3>
 <ul>
-<li>Узнать (и обновить) ваш ранг: <code>!rank</code></li>
-<li>Узнать ранг другого игрока:
-<ul>
-<li><code>!rank [Steam64ID]</code></li>
-<li><code>!rank [@DiscordName#0000]</code><br>
-<u>Убедитесь, что создалось <strong>упоминание</strong> данного игрока.</u></li>
-</ul>
-</li>
+<li>Чтобы обновить ваш игровой ранг, отправьте команду !r в личные сообщения боту ChessBot.</li>
+<li>ChessBot отправит вам ваш ранг и уровневую роль в личные сообщения. Убедитесь, что вы не отключили личные сообщения в настройках приватности дискорда.</li>
+<li>Вы можете найти бота ChessBot в правом верхнем углу окна дискорда и кликнуть на него правой клавишей мыши чтобы отправить личное сообщение.</li>
 </ul>
 <h3 id="kak-uznat-steam64id">Как узнать Steam64ID</h3>
 <ol>
